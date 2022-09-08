@@ -1,19 +1,17 @@
 import {
-  BellIcon,
+  Bars3Icon, BellIcon,
   ChatBubbleOvalLeftEllipsisIcon,
   GlobeAltIcon,
   PhoneIcon,
   PlusIcon,
   SparklesIcon,
-  VideoCameraIcon,
-  Bars3Icon,
+  VideoCameraIcon
 } from '@heroicons/react/24/outline'
 import {
   ChevronDownIcon,
   HomeIcon,
-  MagnifyingGlassIcon,
+  MagnifyingGlassIcon
 } from '@heroicons/react/24/solid'
-import Image from 'next/image'
 import { signIn, signOut, useSession } from 'next-auth/react'
 
 function Header() {
